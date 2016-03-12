@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.geoguitar.listadedesejos.AlterarDesejo">
+
+    <TextView
+        android:id="@+id/produto"
+        android:text="@string/produto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtTxtProduto"
+        android:layout_below="@+id/produto"
+        android:layout_alignLeft="@+id/categoria"
+        android:layout_alignStart="@+id/categoria" />
+
+
+    <TextView
+        android:id="@+id/categoria"
+        android:text="@string/categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/produto"
+        android:layout_alignStart="@+id/produto"
+        android:layout_below="@+id/edtTxtProduto"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtTxtCategoria"
+        android:layout_below="@+id/categoria"
+        android:layout_alignLeft="@+id/categoria"
+        android:layout_alignStart="@+id/categoria" />
+
+    <TextView
+        android:id="@+id/precoMinimo"
+        android:layout_below="@+id/edtTxtCategoria"
+        android:text="@string/precoMinimo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtTxtPrecoMin"
+        android:layout_below="@+id/precoMinimo"
+        android:layout_alignLeft="@+id/categoria"
+        android:layout_alignStart="@+id/categoria" />
+
+    <TextView
+        android:id="@+id/precoMaximo"
+        android:layout_below="@+id/edtTxtPrecoMin"
+        android:text="@string/precoMaximo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtTxtPrecoMax"
+        android:layout_below="@+id/precoMaximo"
+        android:layout_alignLeft="@+id/categoria"
+        android:layout_alignStart="@+id/categoria" />
+
+    <TextView
+        android:id="@+id/lojas"
+        android:layout_below="@+id/edtTxtPrecoMax"
+        android:text="@string/lojas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtTxtLojas"
+        android:layout_below="@+id/lojas"
+        android:layout_alignLeft="@+id/categoria"
+        android:layout_alignStart="@+id/categoria" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:id="@+id/btnSalvar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
