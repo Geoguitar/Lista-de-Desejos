@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ListaDeDesejos</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_inserir_desejo">InserirDesejo</string>
+    <string name="title_activity_detalhes_do_desejo">DetalhesDoDesejo</string>
+    <string name="title_activity_alterar_desejo">AlterarDesejo</string>
+    <string name="desejos">Desejos</string>
+    <string name="nomeproduto">Nome do Produto:</string>
+    <string name="produto">Produto:</string>
+    <string name="categoria">Categoria:</string>
+    <string name="precoMinimo">Preço Minimo:</string>
+    <string name="precoMaximo">Preço Maximo:</string>
+    <string name="lojas">Lojas onde achar:</string>
+    <string name="buscarProdutos">Buscar Produtos</string>
+    <string name="inserirDesejos">Inserir Desejos</string>
+    <string name="btnAdicionar">Adicionar</string>
+    <string name="btnSalvar">Salvar</string>
+    <string name="btnLista">Lista</string>
+    <string name="btnAlterar">Alterar</string>
+    <string name="btnProximo">Próximo</string>
+
+</resources>
